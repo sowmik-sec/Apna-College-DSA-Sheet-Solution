@@ -9,6 +9,7 @@ public class Anagram {
         System.out.println(anagram(s,t));
     }
 
+
     private static boolean anagram(String s, String t) {
         char c1[] = s.toCharArray();
         char c2[] = t.toCharArray();
